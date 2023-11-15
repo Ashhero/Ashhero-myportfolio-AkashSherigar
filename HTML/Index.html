@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/Style.css">
+    <script src="https://kit.fontawesome.com/67138609bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/AKASH.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <!-- <li><a href="#">PORTFOLIO</a></li> -->
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,I'm <br><span>Sherigar Akash Shankar</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------About-------------------------------- -->
+    <div id="about">
+        <div class="conatiner">
+            <div class="row">
+                <div class="about-col1">
+                <img src="/images/Akash.jfif">
+                </div>
+            <div class="about-col2">
+                <h1 class="subtitle">About Me</h1>
+                <p>As a student seeking employment, I aim to gain practical experience and develop
+                    transferable skills while contributing positively to the organization. I am eager to
+                    learn and willing to take on new challenges. My academic background in
+                    [MCA] has equipped me with [relevant skills/knowledge], which I look forward to
+                    applying in a professional setting. I am a reliable and dedicated individual who
+                    works well both independently and as part of a team.
+                    </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentabs('skills')">SKills</p>
+                    <p class="tab-links" onclick="opentabs('Certification')">Certification</p>
+                    <p class="tab-links" onclick="opentabs('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+                        <li><span>Front-End Development</span></li>
+                        <li><span>Web Development</span></li>
+                        <li><span>Time Management</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certification">
+                    <ul>
+                        <li><span>Machine Leaning with python</span></li>
+                        <a href="https://drive.google.com/file/d/1491boiYcjfO8lemnGq13MLASzIT5inSz/view?usp=drive_link" download>
+                            <button >View Certificate</button>
+                        </a>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Master of Computer Application at NMAMIT Nitte(2022-2024) </span></li>
+                        <li><span>Bachelor of Computer Application at Sri Bhuvanendra College(2019-2022)</span></li>
+                        <li><span>EBAC PUC at Jyothi PU College(2019) </span></li>
+                        <li><span>SSLC Church English Medium School Ajekar(2019) </span></li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+    <!-- --------------------------------services---------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Welcome to my web development portfolio! I'm a passionate web developer with a strong background in creating dynamic and visually appealing websites. With a keen eye for design and a deep understanding of programming languages and frameworks, I bring your digital ideas to life. Explore my projects below to get a glimpse of my expertise.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <h2>Application Development</h2>
+                    <p>A passionate app developer with a keen eye for creating functional and user-friendly applications. Over the years, I've had the privilege of working on a diverse range of app projects, each with its unique set of challenges and opportunities. My goal has always been to craft solutions that not only meet user needs but also push the boundaries of what technology can achieve.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-dev"></i>
+                    <h2>Software Developer</h2>
+                    <p>I believe that software has the power to transform the way we live and work, and I am committed to harnessing that power to build cutting-edge applications and solutions. Over the years, I have honed my skills in various programming languages, frameworks, and technologies to deliver efficient and elegant software solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+
+     </div>
+     <!--------------------------------porfolio------------------------------>
+     <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png">
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png">
+                </div>
+            </div>
+
+            </div>
+        </div>
+     </div> -->
+     <!------------------------Contact----------------------------->
+     <div id="contact">
+        <div class="conatiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">
+                        Contact Me
+                    </h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>akashdevadiga919@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7899869963</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/akash-sherigar-b7427323a"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/akash_devadiga_01"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/SherigarAkash"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    </div>
+                    <div class="btn">
+                      
+                        <a href="https://drive.google.com/file/d/1_dgy7IhX9eZRDesGuRXVM_FrZ6sU3ZKd/view?usp=drive_linkf" download>
+                            <button class="cv">Download Resume</button>
+                        </a>
+                        
+                </div>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6 " placeholder="Your Message" required></textarea>
+                        <button type="submit" name="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg">
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Akash.Made With <i class="fa-solid fa-heart"></i> by reffering Google and Youtube. </p>
+        </div>
+     </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents=document.getElementsByClassName("tab-contents")
+        function opentabs(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <form name="submit-to-google-sheet">
+        <!-- <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>-->
+      </form> 
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyW3VGeWyOvVvbfeKNcsFfd16fEc0tSz0PjiSitNKe-cj__2FQ6IC-Fz_5MEJq-lWIT/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        var sidemeu= document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0px";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+        
+
+      </script>
+</body>
+</html>
